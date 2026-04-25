@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 export type Audience = "teen" | "adult" | "senior" | "all";
 
 type ProgressState = {
-  audience: Audience | null;
+  audience: Audience | "all";
   completedLessons: string[];
 };
 
